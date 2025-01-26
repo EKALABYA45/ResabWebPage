@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(horsebg.jpg);
+    background-size: cover;
+}
+.nav{ 
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.secondbox{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.secondbox a {
+    color: wheat;
+    text-decoration: none;
+    
+}
+.border:hover{
+    /* border: 1.5px solid white;
+    border-radius: 5%; */
+    transition: all 0.3s ease 0s; 
+    position: relative;
+    transform: scale(1.35);
+    box-shadow: 2px 2px 2px 2px;
+}
+.border2:hover{
+    border: 2px solid white;
+    border-radius: 30%;
+}
+h1{
+    background-color: transparent;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+h1:hover{
+    transition: all 0.3s ease 0s; 
+    position: relative;
+    transform: scale(1.05);
+}
+
+.thirdbox{
+    padding-right: 5px;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    padding: 50px 0px 0px 90px;
+    align-self: center;
+    height: 500px;
+    width: 400px;
+    background-color: transparent;
+  
+    
+}
+.container h1{
+    color: white;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 40px;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+.form-group:hover{
+    transition: all 0.3s ease 0s; 
+    position: relative;
+    transform: scale(1.05);
+    /* transform: rotate(360deg); */
+}
+.btn{
+    align-self: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-left: 40px ;
+
+}
+
+.form-input{
+    background-color: transparent;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+input::placeholder {
+    color: rgb(183, 129, 20); /* Replace with your desired color */
+}
+input {
+    color: #e3aa25; /* Replace with your desired color */
+}
+button {
+    background-color: #edb438; /* Background color */
+    color: white;              /* Text color */
+    border: 2px solid rgb(255, 166, 0);             
+    padding: 10px 20px;    
+    border-radius: 5px;         /* Optional: change cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: all 0.3s ease 0s; 
+    position: relative;
+    transform: scale(1.05); 
+    /* transform: rotate(360deg); */
+}
+
