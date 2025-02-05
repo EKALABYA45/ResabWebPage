@@ -1,4 +1,4 @@
 # ResabWebPage
-A simple responsive webpage using HTML and CSS
+A simple responsive gym webpage using HTML and CSS
 <br>
 Author-Ekalabya Meher
